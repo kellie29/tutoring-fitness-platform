@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can create factory 1`] = `
+Object {
+  "abstract": [Function],
+  "concrete": [Function],
+  "create": [Function],
+  "createAbstract": [Function],
+}
+`;

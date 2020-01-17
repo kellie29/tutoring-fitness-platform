@@ -1,0 +1,7 @@
+// @flow
+
+import * as React from 'react';
+
+declare module.exports: React.ComponentType<{
+  components?: { [string]: React.ComponentType<any> },
+}>;

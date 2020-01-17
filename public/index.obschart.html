@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>ObsChart</title>
+    <meta
+      name="description"
+      content="Software that enables you to create digital programs for your users. Free up to 5 clients."
+    />
+    <!-- https://ogp.me/ -->
+    <meta property="og:site_name" content="ObsChart" />
+    <meta property="og:title" content="ObsChart" />
+    <meta property="og:url" content="https://obschart.com/" />
+    <meta property="og:image" content="%PUBLIC_URL%/logo1200.png" />
+    <meta
+      property="og:description"
+      content="Software that enables you to create digital programs for your users. Free up to 5 clients."
+    />
+    <meta property="og:type" content="website" />
+    <!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@obschart" />
+    <meta name="twitter:title" content="ObsChart" />
+    <meta
+      name="twitter:description"
+      content="Software that enables you to create digital programs for your users. Free up to 5 clients."
+    />
+    <meta name="twitter:image" content="%PUBLIC_URL%/logo1200.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://connect.facebook.net" /> -->
+
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=%REACT_APP_GA_MEASUREMENT_ID%"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', '%REACT_APP_GA_MEASUREMENT_ID%', {
+        anonymize_ip: true,
+        allow_ad_personalization_signals: false,
+        send_page_view: false,
+        app_name: '%REACT_APP_NAME%',
+        app_version: '%REACT_APP_VERSION%',
+      });
+      window['ga-disable-%REACT_APP_GA_MEASUREMENT_ID%'] = true;
+    </script>
+
+    <!-- Stripe -->
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <!-- Facebook Pixel -->
+    <!-- prettier-ignore -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '942625172764299'); 
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        src="https://www.facebook.com/tr?id=942625172764299&ev=PageView&noscript=1"
+      />
+    </noscript>
+
+    <!-- HubSpot -->
+    <script
+      type="text/javascript"
+      id="hs-script-loader"
+      async
+      defer
+      src="//js.hs-scripts.com/6342353.js"
+    ></script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <!-- <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml: true,
+          version: 'v3.3',
+        });
+      };
+
+      (function(d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, 'script', 'facebook-jssdk');
+    </script>
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="346200722766216"
+      theme_color="#1a253d"
+    ></div> -->
+  </body>
+</html>

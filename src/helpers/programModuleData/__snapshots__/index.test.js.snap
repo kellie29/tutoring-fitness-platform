@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`programModuleDataToEvents() works 1`] = `
+Array [
+  Object {
+    "end": "2019-06-10T09:00:00.000Z",
+    "id": "test-0",
+    "programModuleData": Object {
+      "data": Object {
+        "action": Object {
+          "steps": Array [
+            Object {
+              "action": Object {
+                "blocks": Array [],
+                "type": "blocks",
+              },
+              "name": "title",
+            },
+          ],
+          "type": "multiStep",
+        },
+        "scheduling": Object {
+          "configuration": Object {
+            "eventsViewableBeforeStartDate": false,
+            "noNotifications": false,
+          },
+          "recurOnDays": Array [],
+          "recurrenceEnd": "never",
+          "recurrenceEndAfterAmount": 1,
+          "recurrenceEndOnDay": 1,
+          "recurrenceFrequency": "daily",
+          "recurrenceInterval": 1,
+          "startDay": 1,
+          "startTime": 32400000,
+        },
+      },
+      "id": "test",
+      "name": "test",
+      "type": "generic",
+    },
+    "start": "2019-06-10T09:00:00.000Z",
+    "title": "test",
+  },
+]
+`;

@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "JustCoach"
+  },
+  "tutorialStepTracker": {
+    "almostDone": "You are almost done! Follow these steps to get the best out of JustCoach"
+  },
+  "mobileAppPreviewView": {
+    "tooltipTitle": "This is how this program will look on the JustCoach mobile app."
+  },
+  "signup": {
+    "title": "Signup",
+    "welcome": "Welcome to JustCoach",
+    "freeAccount": "Signup for a free account to start building your first program.",
+    "fullNameLabel": "Full Name",
+    "countryLabel": "Country",
+    "occupationLabel": "Occupation",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "confirmPasswordLabel": "Confirm Password",
+    "eulaCheckLabel": "I accept the {eulaLink}.",
+    "eula": "End User License Agreement",
+    "privacyAndTosLabel": "By clicking Signup, you also agree to our {tosLink} and {privacyLink}.",
+    "tos": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "submit": "Signup",
+    "alreadHaveAccount": "Already have an account?",
+    "login": "Login"
+  },
+  "login": {
+    "title": "Login",
+    "welcomeBack": "Welcome back!",
+    "areYouNew": "New to JustCoach? {signupLink}",
+    "signup": "Sign up",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "forgotPassword": "Forgot your password? {resetPasswordLink}",
+    "resetPassword": "Reset",
+    "submit": "Login"
+  }
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.deepscope.obschart",
+      "sha256_cert_fingerprints": [
+        "7D:35:0A:11:39:03:CB:8F:1E:A1:91:3B:19:55:47:69:21:63:B7:B8:64:E7:C5:43:77:E1:7F:94:FB:E1:F0:EB",
+        "40:39:74:A4:94:F4:F0:F6:80:4B:99:BD:34:1A:99:72:EC:94:E4:C9:1F:28:FD:42:39:96:4B:C3:3A:C0:1B:E9"
+      ]
+    }
+  }
+]
