@@ -158,7 +158,7 @@
     "postcss-preset-env": "6.7.0",
     "postcss-safe-parser": "4.0.1",
     "prettier": "^1.18.2",
-    "react-dev-utils": "^9.0.1",
+    "react-dev-utils": "^11.0.4",
     "react-testing-library": "^6.1.2",
     "relay-compiler": "^7.1.0",
     "relay-config": "^7.1.0",
